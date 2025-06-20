@@ -6,7 +6,7 @@ O projeto é dividivo em duas partes:
 - Um **serviço backend** utilizando framework **Horse**, que expõe APIs REST.
 - Uma **aplicação cliente VCL** que consome as APIs via chamadas HTTP.
  
-O objetivo é demonstrar boas práticas de deenvolvimento Delphi, uso de design patterns (Abstract Factory), consumo de APIs REST, integração com banco de dados relacional apresentação de estatíscas por meio de SQL.
+O objetivo é demonstrar boas práticas de deenvolvimento Delphi, uso de design patterns (Abstract Factory), consumo de APIs REST, integração com banco de dados relacional apresentação de estatíscas.
 
 ---
 
@@ -14,7 +14,7 @@ O objetivo é demonstrar boas práticas de deenvolvimento Delphi, uso de design 
 
 - **Delphi**
 - **Horse Framework** 
-- **RESTRequest4Delphi**
+- **Biblioteca REST do Delphi**
 - **SQL Server**
 - **Design Pattern: Abstract Factory**
 
