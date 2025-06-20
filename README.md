@@ -39,7 +39,7 @@ O objetivo é demonstrar boas práticas de deenvolvimento Delphi, uso de design 
 **Driver odbc: para o firedac do delphi acessar o SQL Server**
 [Driver](https://learn.microsoft.com/pt-br/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver17)
 
-** Docker: subir o sqlserver com o docker **
+**Docker: subir o sqlserver com o docker**
 
 - **Comando:** docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=projeto@1234" -p 1433:1433 --name sqlserver-projeto -d mcr.microsoft.com/mssql/server:2022-latest
 
@@ -49,7 +49,7 @@ O objetivo é demonstrar boas práticas de deenvolvimento Delphi, uso de design 
 - **Usuário:** sa
 - **Senha:** projeto@1234
 
-** Depois de logado no Azure Data Studio, execute os seguintes comandos para criar um usuário e senha e o banco de dados do projeto**
+**Depois de logado no Azure Data Studio, execute os seguintes comandos para criar um usuário e senha e o banco de dados do projeto**
 ```sql
 CREATE DATABASE projeto;
 GO
