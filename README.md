@@ -64,7 +64,22 @@ GO
 
 ALTER ROLE db_owner ADD MEMBER projeto;
 GO
-``` 
+```
+
+**Comando para criar a tabela do projeto**
+```sql
+create table tarefas (
+    codigo  INT IDENTITY(1,1) PRIMARY KEY,
+    descricao VARCHAR(255) NOT NULL,
+    data_hora_criacao DATETIME DEFAULT GETDATE() NOT NULL,
+    usuario_criacao VARCHAR(45) NOT NULL,
+    prioridade  INT NOT NULL,
+    data_hora_conclusao DATETIME,
+    usuario_conclusao VARCHAR(45),
+    observacao  NVARCHAR(MAX)
+) ;
+```
+
 ---
 
 ## Funcionalidades Cliente VCL
